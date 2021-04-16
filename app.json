@@ -10,4 +10,9 @@
     },
     "repository": "https://github.com/heartbans/v2ray-heroku",
     "stack": "container"
+    "buildpacks": [
+    {
+      "url": "heroku/go"
+    }
+  ]
 }
